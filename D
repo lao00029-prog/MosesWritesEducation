@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>上海高阶研习暑校｜What is Technology?</title>
+  <meta name="description" content="Advanced Studies Institute Shanghai · 2026年7月21–30日 · 10天全寄宿沉浸式学习（全程无手机）· 14-18岁 · Need-blind录取与全额助学金。" />
+  <style>
+    :root{--bg:#0b0b0d;--card:#111114;--text:#f7f7fb;--muted:#b8b8c7;--line:#23232a;--btn:#ffffff;--btnText:#0b0b0d;}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial; background:linear-gradient(180deg,#0b0b0d 0%,#0b0b0d 60%,#0f0f14 100%); color:var(--text);}
+    a{color:inherit}
+    .wrap{max-width:1080px;margin:0 auto;padding:28px 18px 90px}
+    .top{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .brand{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.2px}
+    .pill{border:1px solid var(--line);padding:6px 10px;border-radius:999px;color:var(--muted);font-size:12px}
+    .hero{padding:64px 0 28px;display:grid;gap:18px}
+    .hero h1{font-size:44px;line-height:1.05;margin:0}
+    .hero p{margin:0;color:var(--muted);font-size:16px;max-width:760px}
+    .ctaRow{display:flex;gap:12px;flex-wrap:wrap;margin-top:10px}
+    .btn{appearance:none;border:0;border-radius:14px;padding:12px 16px;font-weight:700;cursor:pointer}
+    .btn.primary{background:var(--btn);color:var(--btnText)}
+    .btn.ghost{background:transparent;color:var(--text);border:1px solid var(--line)}
+    .grid{display:grid;grid-template-columns:1.2fr .8fr;gap:16px;margin-top:22px}
+    @media (max-width:860px){.grid{grid-template-columns:1fr}}
+    .card{background:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:22px;padding:18px}
+    .kvs{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+    .kv{border:1px solid var(--line);border-radius:18px;padding:12px;background:rgba(0,0,0,.18)}
+    .kv b{display:block;font-size:13px}
+    .kv span{display:block;color:var(--muted);font-size:13px;margin-top:4px}
+    h2{margin:0 0 10px;font-size:20px}
+    ul{margin:10px 0 0;padding-left:18px;color:var(--muted);line-height:1.65}
+    .form{display:grid;gap:10px;margin-top:10px}
+    label{font-size:13px;color:var(--muted)}
+    input,select,textarea{width:100%;padding:12px 12px;border-radius:14px;border:1px solid var(--line);background:#0c0c10;color:var(--text);outline:none}
+    textarea{min-height:92px;resize:vertical}
+    .row2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+    @media (max-width:560px){.row2{grid-template-columns:1fr}}
+    .note{font-size:12px;color:var(--muted);line-height:1.5}
+    .footer{margin-top:28px;color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+    .ok{display:none;margin-top:10px;border:1px solid #245f3a;background:rgba(32,120,70,.14);padding:10px;border-radius:14px;color:#bff2d2;font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div class="brand">
+        <span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#ff6a3d"></span>
+        <span>MosesWritesEducation</span>
+        <span class="pill">招生官网 · Landing</span>
+      </div>
+      <a class="pill" href="#apply">立即申请</a>
+    </div>
+
+    <section class="hero">
+      <h1>上海高阶研习暑校<br/>What is Technology?</h1>
+      <p>10天全寄宿沉浸式学习（全程无手机），汇聚全球一流高校教授、国际影像团队与教育专家。面向 <b>14–18岁</b> 青少年。<b>Need-blind录取</b>，并提供<b>全额助学金</b>（按需）。</p>
+      <div class="ctaRow">
+        <button class="btn primary" onclick="document.getElementById('apply').scrollIntoView({behavior:'smooth'})">Apply Now</button>
+        <button class="btn ghost" onclick="document.getElementById('details').scrollIntoView({behavior:'smooth'})">查看项目详情</button>
+      </div>
+    </section>
+
+    <section class="grid" id="details">
+      <div class="card">
+        <h2>项目亮点</h2>
+        <ul>
+          <li>全英文研讨式课堂 + 每晚阅读（可配纸质词典/双语助教）</li>
+          <li>影像创作与表达：完成个人原创视频 + 集体纪录片项目</li>
+          <li>个人目标探索工作坊：自信表达、成长方向、领导力</li>
+          <li>海外升学研讨会（可含家长中英双语工作坊）</li>
+          <li>小班沉浸式社群：与优秀同龄人同行</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>关键信息</h2>
+        <div class="kvs">
+          <div class="kv"><b>时间</b><span>2026/07/21 – 07/30</span></div>
+          <div class="kv"><b>地点</b><span>上海（校区）</span></div>
+          <div class="kv"><b>年龄</b><span>14–18 岁</span></div>
+          <div class="kv"><b>形式</b><span>全寄宿 · 无手机</span></div>
+          <div class="kv"><b>费用</b><span>¥38,800 / 人（含住宿餐饮）</span></div>
+          <div class="kv"><b>助学金</b><span>Need-blind + Need-based</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:16px" id="apply">
+      <h2>申请表（示范版）</h2>
+      <p class="note">提示：这是静态版页面用于先上线展示。你之后要“真正可提交”的申请系统（自动邮件/表格/数据库），我再给你一键升级版本。</p>
+
+      <form class="form" onsubmit="return fakeSubmit(event)">
+        <div class="row2">
+          <div>
+            <label>学生姓名 *</label>
+            <input required name="student_name" />
+          </div>
+          <div>
+            <label>邮箱 *</label>
+            <input required type="email" name="email" />
+          </div>
+        </div>
+
+        <div class="row2">
+          <div>
+            <label>家长姓名 *</label>
+            <input required name="parent_name" />
+          </div>
+          <div>
+            <label>年收入区间（人民币）*</label>
+            <select required name="income_range">
+              <option value="">请选择</option>
+              <option>≤ 10万</option><option>10–20万</option><option>20–40万</option>
+              <option>40–80万</option><option>80–150万</option><option>≥ 150万</option>
+              <option>不方便透露</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row2">
+          <div>
+            <label>是否申请助学金 *</label>
+            <select required name="need_aid">
+              <option value="">请选择</option>
+              <option>是</option>
+              <option>否</option>
+            </select>
+          </div>
+          <div>
+            <label>护照信息（护照号/姓名）*</label>
+            <input required name="passport_info" placeholder="例如：E12345678 / ZHANG SAN" />
+          </div>
+        </div>
+
+        <div class="row2">
+          <div>
+            <label>学校 *</label>
+            <input required name="school" />
+          </div>
+          <div>
+            <label>所在城市</label>
+            <input name="city" />
+          </div>
+        </div>
+
+        <div>
+          <label>补充说明（可选）</label>
+          <textarea name="notes" placeholder="如饮食禁忌、过敏、特殊需求等"></textarea>
+        </div>
+
+        <button class="btn primary" type="submit">提交（示范）</button>
+        <div class="ok" id="ok">已提交（示范）✅ 之后我帮你接入真实提交、自动邮件、表格/数据库。</div>
+      </form>
+    </section>
+
+    <div class="footer">
+      <span>联系邮箱：summer@moseswrites.org</span>
+      <span>© 2026 MosesWrites Education</span>
+    </div>
+  </div>
+
+<script>
+function fakeSubmit(e){
+  e.preventDefault();
+  document.getElementById('ok').style.display='block';
+  return false;
+}
+</script>
+</body>
+</html>
